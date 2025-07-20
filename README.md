@@ -1,2 +1,2 @@
-# life-cycle-0f-organisms-project
+# life-cycle-Of-organisms-project
 mini project on AI
