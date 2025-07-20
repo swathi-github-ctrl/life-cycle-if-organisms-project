@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organism Life Cycle Explorer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Organism Life Cycle Explorer</h1>
+    <p>Discover the fascinating journey of life</p>
+  </header>
+  <main>
+    <!-- Organism Selection -->
+    <label for="organism-select">Select an Organism</label>
+    <select id="organism-select">
+      <option value="" disabled selected>Choose an organism</option>
+      <option value="butterfly">Butterfly</option>
+      <option value="frog">Frog</option>
+      <option value="fish">Fish</option>
+    </select>
+    <button id="select-button" onclick="displayLifeCycle()">Select Organism</button>
+
+    <!-- Random Organism Cards Section -->
+    <h2>Random Organism Information</h2>
+    <div id="random-info-grid" class="grid-container">
+      <!-- Random cards will be dynamically inserted here -->
+    </div>
+  </main>
+  <footer>
+    <p>© 2024 Organism Life Cycle Explorer. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
